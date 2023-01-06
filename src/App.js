@@ -1,11 +1,14 @@
 import './App.css';
+import HomeContainer from './containers/HomeContainer';
+import User from './User';
 function App() {
   return (
+
     <div className="App">
         
 
-        <h1>hello world123</h1>
-
+        <HomeContainer />
+       
     </div>
   );
 }
